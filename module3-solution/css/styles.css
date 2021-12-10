@@ -30,3 +30,13 @@ body {
   background-color: #f5f5f5;
   margin-bottom: 20px;
 }
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #textContent {
+    margin: 5px;
+  }
+  #textContent p {
+    font-size: 12px;
+  }
+}
